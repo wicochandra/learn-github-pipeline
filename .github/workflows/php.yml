@@ -42,7 +42,7 @@ jobs:
     # needs: ['build-composer']
     services: 
       mysql: 
-        image: bitnami/mysql:8.0
+        image: bitnami/mysql:latest
         env: 
           MYSQL_ALLOW_EMPTY_PASSWORD: yes
           MYSQL_DATABASE: db_testing
